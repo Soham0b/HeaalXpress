@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedServe Connect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MedServe Connect</h1>
+        <!-- Navigation bar, user login, etc. -->
+    </header>
+
+    <main>
+        <!-- Medicine Ordering Section -->
+        <section id="medicine-order">
+            <h2>Order Medicines</h2>
+            <!-- Form for ordering medicines -->
+            <form id="order-form">
+                <!-- Input fields for medicine details, quantity, etc. -->
+                <label for="medicine-name">Medicine Name:</label>
+                <input type="text" id="medicine-name" name="medicineName" required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <!-- Additional fields can be added based on your requirements -->
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+
+        <!-- Product Availability Section -->
+        <section id="product-availability">
+            <h2>Check Product Availability</h2>
+            <!-- Input fields for checking product availability -->
+            <form id="availability-form">
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" name="productName" required>
+
+                <!-- Additional fields can be added based on your requirements -->
+
+                <button type="submit">Check Availability</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content and links -->
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
